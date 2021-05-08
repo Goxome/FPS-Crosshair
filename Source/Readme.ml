@@ -1,4 +1,5 @@
 By Goxome
 
-• Updater Addon
-• Crosshair
+
+For Password Contact Goxome
+goxomeofficial@gmail.com

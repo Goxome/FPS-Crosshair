@@ -1,5 +1,5 @@
 {
-  "url":"https://github.com/Goxome/FPS-Crosshair/releases/download/1.0.0/Released_1.0.0.apk",
-  "versionCode":100,
-  "updateMessage":"1. adaptation Android 8.0\n2. adaptation Android 10.0\n3. Release Notes"
+  "url":"https://github.com/Goxome/FPS-Crosshair/releases/download/2.0.0/Release_v2.0-Beta.apk",
+  "versionCode":200,
+  "updateMessage":"1. adaptation Android 11+ \n2. New Stylish Crosshair\n3. No Notch Device Displaying issue fixed."
 }

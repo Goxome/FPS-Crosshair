@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.goxome.crosshair"
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 100
+        versionName "1.0.0"
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("../extras/demo.jks")
+            storePassword "android"
+            keyAlias "android"
+            keyPassword "android"
+        }
+
+        release {
+            storeFile file("../extras/demo.jks")
+            storePassword "android"
+            keyAlias "android"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+       debug {
+            debuggable true
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+        }
+
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            zipAlignEnabled true
+        }
+    }
+}
+
+dependencies {
+   // implementation project(':library')
+    implementation "com.android.support:appcompat-v7:27.1.0"
+}

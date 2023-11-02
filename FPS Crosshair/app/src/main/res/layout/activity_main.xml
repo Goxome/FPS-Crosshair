@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical|center_horizontal"
+	android:orientation="vertical"
+	android:background="@drawable/gx_background">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Goxome Crosshair"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:background="#78FFFFFF"
+		android:textColor="#FFFFFDFD"
+		android:inputType="text"
+		android:shadowColor="#54BDF76D"
+		android:layout_marginBottom="100dp"
+		android:textIsSelectable="true"
+		android:shadowRadius="10.0"
+		android:typeface="serif"
+		android:padding="10dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="CROSSHAIR ON"
+		android:onClick="StartCheat"
+		android:background="#5DFAFAFA"
+		android:textColor="#FFFFFFFF"
+		android:layout_marginTop="70dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="CROSSHAIR OFF"
+		android:onClick="StopService"
+		android:textColor="#FFFFFFFF"
+		android:background="#5DFAFAFA"
+		android:layout_marginTop="36dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Developed By Goxome"
+		android:layout_marginTop="51dp"
+		android:textColor="#98FF45E9"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Update to Latest"
+		android:layout_marginTop="51dp"
+		android:textColor="#FFFFFFFF"
+		android:visibility="invisible"/>
+
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:text="Check Update"
+		android:background="#5DFAFAFA"
+		android:textColor="#FFFFFFFF"
+		android:visibility="invisible"/>
+
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="Notify Update"
+		android:background="#5DFAFAFA"
+		android:textColor="#FFFFFFFF"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Code Version"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:id="@+id/textView1"
+		android:textColor="#FFFFFFFF"
+		android:visibility="visible"/>
+
+</LinearLayout>
+

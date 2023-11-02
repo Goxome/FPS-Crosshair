@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameHelper</string>
+    <string name="android_auto_update_dialog_title">New version found</string>
+    <string name="android_auto_update_notify_ticker"> Find a new version, click to upgrade</string>
+    <string name="android_auto_update_notify_content">Found a new version, click to upgrade</string>
+    <string name="android_auto_update_dialog_btn_download">download now</string>
+    <string name="android_auto_update_dialog_btn_cancel">talk about it later</string>
+    <string name="android_auto_update_toast_no_new_update">Already the latest version</string>
+    <string name="android_auto_update_download_progress">Downloading: %1$d%%</string>
+    <string name="android_auto_update_dialog_checking">Checking version</string>
+</resources>
